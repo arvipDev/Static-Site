@@ -123,6 +123,10 @@ footer ul{
     list-style: none;
 }
 
+footer ul li{
+    display: inline;
+}
+
 
 .hello{
     font-family: 'Open Sans', sans-serif;
