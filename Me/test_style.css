@@ -1,55 +1,66 @@
-@charset "UTF-8";
-@import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+<!DOCTYPE html>
 
-article, aside, footer, header, main, nav, section {
-    display: block;
-}
-
-html, body, h1, h2, h3, ul, li, a, p, img
-article, aside, header, main, footer, section, nav{
-    padding : 0;
-    margin : 0;    
-    font-family: 'Noto Sans', sans-serif;
-    font-style: normal;
-    background: #1D1F21;
-}
-
-/*
-body{
-    background: url('images/edit.jpg') no-repeat 100% 100% fixed;
-    background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
-}
-*/
-
-img{
-    width: 100%;
-    height: 300px;
-}
-
-
-.name{
-    color: white;
-    padding: 10px 20px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-h1{
-    font-family: 'Noto Sans', sans-serif;    
-}
-
-body{
-    width: auto;
-    margin-left: auto;
-    margin-left: auto;
-}
-
-.play{
-    width: 960px;
-    margin-left: auto;
-    margin-left: auto;
-}
-
+<html lang="en">    
+    <head> 
+        <title>About</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- [If 1t IE 9]>
+        <script>
+            document.createElement("aside");
+            document.createElement("article");
+            document.createElement("header");
+            document.createElement("main");
+            document.createElement("footer");
+            document.createElement("nav");
+            document.createElement("section");
+        </script>
+        
+        <-->
+        
+        <meta name="Author" content="Arvind Purushotham">
+        <meta name="description" content="portfolio">
+        <meta name="keywords" content="about, biography, history, description">
+    </head>
+    
+    <body>
+        <header>
+            <h1>Arvind Purushotham</h1>        
+        </header> 
+        
+        <main>
+            <section>
+                <header>
+                    <h2>Education</h2>
+                </header>
+                
+                <h3>Master of Science - Software Engineering</h3>                
+                <p>Regis University, 2014 - 2016 <br>Denver, CO, USA</p>
+                
+                <h3>Bachelor of Engineering - Mechanical Engineering</h3>                
+                <p>New Horizon College of Engineering, 2009 - 2013 <br>Bangalore, India</p>
+            </section>
+            
+            <section>
+                <header>
+                    <h2>Experience</h2>
+                </header>
+                
+                <h3>Deal Acceleration</h3>
+                <p>Android Developer, 2015 - 2016 <br>Denver, Colorado</p>  
+                
+                <h3>Cyber Systems</h3>
+                <p>Founder/Engineer, 2013 - 2014 <br>Bangalore, India</p>
+                
+                <h3>Aircraft Research and Design Centre, Hindustan Aeronautics Limited</h3>
+                <p>Structural Engineer Intern, 2013 <br>Bangalore, India</p>                          
+            </section>       
+        </main>
+        
+        <footer>
+            <p>View my projects and its details by clicking            
+                <a href="http://arvindpurushotham.wixsite.com/mysite/projects">here</a>
+            </p>        
+        </footer>
+    </body>
+</html>
