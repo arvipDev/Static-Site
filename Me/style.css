@@ -263,15 +263,50 @@ main section h3 {
 }
 
 .bottom{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
 }
 
 .bottom:hover{
     position: relative;
-    width: 60px;
-    height: 50px;   
-    padding-left: - 5px;;
+    width: 50px;
+    height: 40px;   
+}
+
+.wide{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #222222;
+    font-weight: 100;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.sec{
+    padding-left: 8px;
+    padding-bottom: 12px;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.sec li{    
+    display: table-cell;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.sec li article{
+    background-color: #222222;
+}
+
+footer{    
+    margin: auto;
+    text-align: center;
 }
 
 body{
