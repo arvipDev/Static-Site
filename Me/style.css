@@ -256,6 +256,23 @@ footer ul li{
     to {color: black;}
 }
 
+.ctrBlink {    
+    animation-name: ctrFlash;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;    
+    font-weight: 700;
+    font-size: 26px;
+    padding-top: 8px;
+}
+
+@keyframes ctrFlash {
+    from {color: #A6A6A6;}
+    to {color: black;}
+}
+
 .proBlink {    
     animation-name: proFlash;
     animation-duration: 2s;
@@ -271,6 +288,24 @@ footer ul li{
 
 @keyframes proFlash {
     from {color: #37BE1E;}
+    to {color: black;}
+}
+
+.galBlink {    
+    animation-name: galFlash;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;    
+    font-weight: 700;
+    font-size: 26px;
+    padding-top: 8px;
+    margin-bottom: 24px;
+}
+
+@keyframes galFlash {
+    from {color: #1E9DBD;}
     to {color: black;}
 }
 
@@ -304,6 +339,14 @@ main section h3 {
 
 .proBorder{
     border: 2px solid #37BE1E;
+}
+
+.galBorder{
+    border: 2px solid #1E9DBD;
+}
+
+.ctrBorder{
+    border: 2px solid #A6A6A6;
 }
 
 .bottom{
@@ -375,7 +418,7 @@ imgGal {
 
 .imgGal div img {
     display: inline-block;
-    width: 199px;
+    width: 195px;
     transition: .1s transform;
     transform: translateZ(0);
 }
